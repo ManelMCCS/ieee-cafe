@@ -1,0 +1,19 @@
+/* https://www.itakeyou.co.uk/dark-blue-grey-and-brown-coffee-colour-palette-41/ */
+
+:root {
+    --dark-blue: #0f0f0d;
+    --dark-dusty-blue: #007bff;
+    --blue-grey: #57636F;
+    --brown: #7a2b01;
+    --color-n1: #bd6f28;
+    --color-n2: #e9a362;
+    /* coffee color */
+    --secondary-color: #e9a362;
+    /*iced coffee color */
+    /* --color-n4: #00629B; */
+    --color-n4: #6f4e37;
+
+    --font-primary: 'Cormorant Garamond', serif;
+    --font-secondary: 'Muli', sans-serif;
+    --font-heading: 'PT Serif', serif;
+}

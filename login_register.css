@@ -1,0 +1,35 @@
+@import 'colors_and_fonts.css';
+
+/* Center the login container horizontally and vertically */
+.dialog-container {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--iced-coffee);
+    /* Add this line to set the background color to blue */
+    padding: 20px;
+    /* Add padding for spacing inside the container */
+    border-radius: 5px;
+    /* Optional: Add rounded corners to the container */
+}
+
+/* Center the submit button horizontally within .login-container */
+button {
+    margin-top: 10px;
+    position: relative;
+    font-family: var(--font-primary);
+}
+
+/* Center the text boxes horizontally within .login-container */
+input[type="text"],
+input[type="password"] {
+    width: 100%;
+    /* Ensure the text boxes take up the full width */
+    margin-top: 10px;
+    /* Add margin to create space between input fields */
+    text-align: center;
+    /* Center the text horizontally within the input boxes */
+    font-family: var(--font-secondary);
+}

@@ -1,0 +1,204 @@
+@import 'colors_and_fonts.css';
+
+
+/* colors_and_fonts.css */
+
+/* Add your color and font styles here */
+
+/* main.css */
+
+p {
+    font-size: 25px;
+    /* Change the font size to your desired size (e.g., 16px) */
+}
+
+input {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    /* Added border-radius for rounded corners */
+    font-size: 25px;
+    font-family: 'Biryani', sans-serif;
+    color: var(--color-n1);
+    /* Change the font size to your preference */
+}
+
+.title {
+    color: var(--color-n1);
+    /* color: var(--color-n1); */
+
+    /* Color #1*/
+    font-family: 'Montserrat', sans-serif;
+    /* Font #1*/
+    margin: 30px;
+
+}
+
+.subtitle {
+    color: #e8a361;
+    /* Color #2*/
+    font-family: 'Lora', serif;
+    /* Font #2*/
+    text-align: center;
+    margin: 50px;
+}
+
+.content-text {
+    color: white;
+    /* Color #3*/
+    font-family: 'Biryani', sans-serif;
+    margin: auto;
+    /* Font#3*/
+}
+
+
+:root {
+    --wave-1-color: var(--color-n1);
+    /* --wave-2-color: var(--secondary-color); */
+    --wave-2-color: var(--secondary-color);
+
+}
+
+header {
+    background-color: var(--color-n1);
+    text-align: center;
+    color: white;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 2;
+}
+
+nav {
+    margin-top: -20px;
+    background-color: var(--secondary-color);
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    z-index: 1;
+}
+
+ul {
+    list-style-type: none;
+    /* Remove bullet points from the list */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+    /* Use flexbox to arrange the list horizontally */
+}
+
+li {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    background-color: var(--color-n1);
+    text-align: center;
+    border-radius: 20px;
+
+    width: 200px;
+    /* Set a specific width for the list items */
+
+    /* padding: 10px 40px; */
+    /* Add padding to the list items for spacing */
+}
+
+li:hover {
+    background-color: var(--color-n4);
+}
+
+a {
+    text-decoration: none;
+    /* Remove underlines from the links */
+    color: white;
+    /* Set the link color to white */
+}
+
+body {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+button {
+    background-color: #bd6f28;
+    /*Color #1*/
+    color: #fff;
+    /*Color #2*/
+    border-radius: 20px;
+    /* Adjust the radius as needed */
+    font-size: 25px;
+    font-family: 'Birrigyani', sans-serif;
+    border: none;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+button:hover {
+    background-color: var(--color-n4);
+    /* Change the color on hover to the color #3*/
+}
+
+
+.content-container {
+    background-color: var(--secondary-color);
+    /* The color #2*/
+    border-radius: 100px;
+    /* Adjust the radius as needed */
+    padding: 20px;
+    /* Add padding for spacing inside the container */
+    margin: 20px;
+    display: flexbox;
+    text-align: center;
+
+}
+
+footer {
+    background-color: var(--color-n1);
+    color: #F7E6D0;
+    text-align: center;
+    padding: 20px;
+    margin-top: -10px;
+}
+
+.z--10 {
+    position: absolute;
+}
+
+
+
+
+.dropdown-content {
+    display: none;
+}
+
+/* Change the display property to block when hovering over .dropdown-icon */
+.dropdown-icon:hover+.dropdown-content {
+    display: inline-block;
+}
+
+/* Style for the icon when hovered */
+.dropdown-icon:hover {
+    color: var(--dark-dusty-blue);
+}
+
+.wave-container {
+    /* position: fixed; */
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    /* Adjust the height as needed */
+
+}
+
+footer {
+    background-color: var(--color-n1);
+    color: #F7E6D0;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
