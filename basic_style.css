@@ -9,6 +9,8 @@
 
 p {
     font-size: 25px;
+    color:white;
+    
     /* Change the font size to your desired size (e.g., 16px) */
 }
 
@@ -32,7 +34,8 @@ input {
     font-family: 'Montserrat', sans-serif;
     /* Font #1*/
     margin: 30px;
-
+    text-align: center;
+    font-weight: bold;
 }
 
 .subtitle {
