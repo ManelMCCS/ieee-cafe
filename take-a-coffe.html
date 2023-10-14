@@ -2,12 +2,12 @@
 <html>
 <header>
     <link rel="stylesheet" href="basic_style.css">
-
+    <link rel="stylesheet" href="style_sheets/text_style.css">
 </header>
 
 <body>
     <header>
-        <img src="logo_ieee_cafe.png" alt="IEEE Café" style="height: 80px; margin: 10px;">
+        <img src="images/logo_ieee_cafe.png" alt="IEEE Café" style="height: 80px; margin: 10px;">
     </header>
 
     <nav>
@@ -20,15 +20,18 @@
         </ul>
     </nav>
 
-    <container class="content-container">
-        <img src="coffee_image.svg" style="width: 180px;">
-        <br>
-        <input type="text" id="ieee_number" placeholder="IEEE number">
-        <br>
-        <input type="text" id="ieee_number" placeholder="Password">
-        <br>
-        <button>Drop Capsule</button>
-    </container>
+    <div class="parent-container">
+
+        <container class="content-container">
+            <img src="coffee_image.svg" style="width: 180px;">
+            <br>
+            <input type="text" id="ieee_number" placeholder="IEEE number">
+            <br>
+            <input type="password" id="password" placeholder="Password">
+            <br>
+            <button>Drop Capsule</button>
+        </container>
+    </div>
 
     <div class="wave-container">
         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" class="z--10">

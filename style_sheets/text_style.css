@@ -1,0 +1,83 @@
+@import 'colors_and_fonts.css';
+
+
+/* colors_and_fonts.css */
+
+/* Add your color and font styles here */
+
+/* main.css */
+
+h1 {
+    font-size: 35px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p {
+    font-size: 25px;
+    color: white;
+
+    /* Change the font size to your desired size (e.g., 16px) */
+}
+
+#long-text {
+    text-align: justify;
+    margin: 5%;
+}
+
+.subtitle {
+    color: #e8a361;
+    /* Color #2*/
+    font-family: 'Lora', serif;
+    /* Font #2*/
+    text-align: center;
+    margin: 50px;
+}
+
+.content-text {
+    color: white;
+    /* Color #3*/
+    font-family: 'Biryani', sans-serif;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    /* Font#3*/
+}
+
+.title {
+    color: var(--color-n1);
+    /* color: var(--color-n1); */
+
+    /* Color #1*/
+    font-family: 'Montserrat', sans-serif;
+    /* Font #1*/
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
+}
+
+a {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    text-decoration: none;
+    width: 200px;
+    padding-bottom: 10px;
+    padding-top: 25px;
+
+}
+
+button {
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Birrigyani', sans-serif;
+}
+
+footer {
+    color: #F7E6D0;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Birrigyani', sans-serif;
+}
