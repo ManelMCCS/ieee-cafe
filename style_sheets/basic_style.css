@@ -1,5 +1,9 @@
 @import 'colors_and_fonts.css';
 
+:root {
+    --wave-1-color: var(--color-n1);
+    --wave-2-color: var(--color-n2);
+}
 
 input {
     margin: 10px 0;
@@ -11,13 +15,6 @@ input {
     font-family: 'Biryani', sans-serif;
     color: var(--color-n1);
     /* Change the font size to your preference */
-}
-
-:root {
-    --wave-1-color: var(--color-n1);
-    /* --wave-2-color: var(--secondary-color); */
-    --wave-2-color: var(--secondary-color);
-
 }
 
 header {
@@ -32,7 +29,7 @@ header {
 
 nav {
     margin-top: -20px;
-    background-color: var(--secondary-color);
+    background-color: var(--color-n2);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     z-index: 1;
@@ -114,6 +111,12 @@ button:hover {
 
 #steps {
     width: 60%;
+    display: flex;
+}
+
+#chairman-container {
+    text-align: justify;
+    display: flex;
 }
 
 footer {
@@ -125,9 +128,6 @@ footer {
 .z--10 {
     position: absolute;
 }
-
-
-
 
 .dropdown-content {
     display: none;

@@ -8,23 +8,31 @@
 /* main.css */
 
 h1 {
-    font-size: 35px;
+    font-size: 500%;
 }
 
 h2 {
-    font-size: 30px;
+    font-size: 230%;
 }
 
 p {
-    font-size: 25px;
+    font-size: 200%;
     color: white;
+    /* margin: 30%; */
 
     /* Change the font size to your desired size (e.g., 16px) */
 }
 
-#long-text {
-    text-align: justify;
-    margin: 5%;
+.title {
+    color: var(--color-n1);
+    /* color: var(--color-n1); */
+
+    /* Color #1*/
+    font-family: 'Montserrat', sans-serif;
+    /* Font #1*/
+    margin: 30px;
+    text-align: center;
+    font-weight: bold;
 }
 
 .subtitle {
@@ -46,22 +54,10 @@ p {
     /* Font#3*/
 }
 
-.title {
-    color: var(--color-n1);
-    /* color: var(--color-n1); */
-
-    /* Color #1*/
-    font-family: 'Montserrat', sans-serif;
-    /* Font #1*/
-    margin: 30px;
-    text-align: center;
-    font-weight: bold;
-}
-
 a {
     text-align: center;
     color: white;
-    font-size: 25px;
+    font-size: 200%;
     text-decoration: none;
     width: 200px;
     padding-bottom: 10px;
