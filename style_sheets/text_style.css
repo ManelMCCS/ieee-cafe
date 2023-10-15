@@ -12,18 +12,11 @@ h2 {
 p {
     font-size: 25px;
     color: white;
-    /* margin: 30%; */
-
-    /* Change the font size to your desired size (e.g., 16px) */
 }
 
 .title {
     color: var(--color-n1);
-    /* color: var(--color-n1); */
-
-    /* Color #1*/
     font-family: var(--font-n1);
-    /* Font #1*/
     margin: 30px;
     text-align: center;
     font-weight: bold;
@@ -31,21 +24,17 @@ p {
 
 .subtitle {
     color: var(--color-n2);
-    /* Color #2*/
     font-family: var(--font-secondary);
-    /* Font #2*/
     text-align: center;
     margin: 50px;
 }
 
 .content-text {
     color: var(--color-n3);
-    /* Color #3*/
     font-family: var(--font-n3);
     margin: auto;
     text-align: center;
     padding: 20px;
-    /* Font#3*/
 }
 
 a {

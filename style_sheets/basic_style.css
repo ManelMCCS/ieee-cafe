@@ -12,6 +12,20 @@ input {
     border-radius: 10px;
 }
 
+.notification {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: max-content;
+    padding: 10px;
+    background-color: var(--color-n1);
+    border-radius: 20px;
+    position: fixed;
+    top: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
 header {
     background-color: var(--color-n1);
     text-align: center;
@@ -32,12 +46,10 @@ nav {
 
 ul {
     list-style-type: none;
-    /* Remove bullet points from the list */
     padding: 0;
     margin: 0;
     display: flex;
     justify-content: space-evenly;
-    /* Use flexbox to arrange the list horizontally */
 }
 
 li {
@@ -64,11 +76,9 @@ body {
 }
 
 button {
-    background-color: #bd6f28;
+    background-color: var(--color-n1);
     /*Color #1*/
-    /*Color #2*/
     border-radius: 20px;
-    /* Adjust the radius as needed */
     border: none;
     margin: 5%;
     padding: 3%;
@@ -85,13 +95,8 @@ button:hover {
 .parent-container {
     display: flex;
     flex-direction: column;
-    /* Stack elements vertically */
     justify-content: center;
-    /* Center horizontally */
     align-items: center;
-    /* Center vertically */
-    /* height: 100vh; */
-    /* Ensure full viewport height */
 }
 
 .content-container {
@@ -101,7 +106,6 @@ button:hover {
     text-align: center;
     width: fit-content;
     margin: 2%;
-    /* Add margin between the boxes */
 }
 
 #steps {
@@ -128,23 +132,18 @@ footer {
     display: none;
 }
 
-/* Change the display property to block when hovering over .dropdown-icon */
 .dropdown-icon:hover+.dropdown-content {
     display: inline-block;
 }
 
-/* Style for the icon when hovered */
 .dropdown-icon:hover {
     color: var(--dark-dusty-blue);
 }
 
 .wave-container {
-    /* position: fixed; */
     left: 0;
     bottom: 0;
     width: 100%;
-    /* Adjust the height as needed */
-
 }
 
 footer {
