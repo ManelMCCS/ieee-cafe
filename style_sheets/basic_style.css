@@ -16,7 +16,7 @@ input {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: max-content;
+    width: 90%;
     padding: 10px;
     background-color: var(--color-n1);
     border-radius: 20px;
