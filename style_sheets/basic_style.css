@@ -10,17 +10,12 @@ input {
     padding: 10px;
     border: 1px solid #ccc;
     border-radius: 10px;
-    /* Added border-radius for rounded corners */
-    font-size: 25px;
-    font-family: 'Biryani', sans-serif;
-    color: var(--color-n1);
-    /* Change the font size to your preference */
 }
 
 header {
     background-color: var(--color-n1);
     text-align: center;
-    color: white;
+    color: var(--color-n3);
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     z-index: 2;
@@ -61,7 +56,7 @@ a {
 
 
 body {
-    background-color: white;
+    background-color: var(--color-n3);
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -75,10 +70,10 @@ button {
     border-radius: 20px;
     /* Adjust the radius as needed */
     border: none;
-    margin: 10px;
-    padding: 10px;
-    padding-left: 20px;
-    padding-right: 20px;
+    margin: 5%;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 button:hover {
@@ -102,10 +97,10 @@ button:hover {
 .content-container {
     background-color: var(--color-n2);
     border-radius: 100px;
-    padding: 20px;
+    padding: 2%;
     text-align: center;
     width: fit-content;
-    margin: 20px;
+    margin: 2%;
     /* Add margin between the boxes */
 }
 

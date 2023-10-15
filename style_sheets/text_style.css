@@ -1,12 +1,6 @@
 @import 'colors_and_fonts.css';
 
 
-/* colors_and_fonts.css */
-
-/* Add your color and font styles here */
-
-/* main.css */
-
 h1 {
     font-size: 500%;
 }
@@ -28,7 +22,7 @@ p {
     /* color: var(--color-n1); */
 
     /* Color #1*/
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--font-n1);
     /* Font #1*/
     margin: 30px;
     text-align: center;
@@ -36,18 +30,18 @@ p {
 }
 
 .subtitle {
-    color: #e8a361;
+    color: var(--color-n2);
     /* Color #2*/
-    font-family: 'Lora', serif;
+    font-family: var(--font-secondary);
     /* Font #2*/
     text-align: center;
     margin: 50px;
 }
 
 .content-text {
-    color: white;
+    color: var(--color-n3);
     /* Color #3*/
-    font-family: 'Biryani', sans-serif;
+    font-family: var(--font-n3);
     margin: auto;
     text-align: center;
     padding: 20px;
@@ -56,7 +50,7 @@ p {
 
 a {
     text-align: center;
-    color: white;
+    color: var(--color-n3);
     font-size: 200%;
     text-decoration: none;
     width: 200px;
@@ -66,14 +60,20 @@ a {
 }
 
 button {
-    color: #fff;
+    color: var(--color-n3);
     font-size: 25px;
-    font-family: 'Birrigyani', sans-serif;
+    font-family: var(--font-n3);
 }
 
 footer {
-    color: #F7E6D0;
+    color: var(--color-n3);
     text-align: center;
     font-size: 25px;
-    font-family: 'Birrigyani', sans-serif;
+    font-family: var(--font-n3);
+}
+
+input {
+    font-size: 25px;
+    font-family: var(--font-n3);
+    color: var(--color-n1);
 }
